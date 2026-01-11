@@ -22,7 +22,7 @@ Used these commands ,
 6. Used this
       docker build -t junaid-hello-project .
 
-7. Verified using docker images command 
+7. Verified using docker images command using docker images
 
 8. Used this 
      docker tag junaid-hello-project junaid1998/junaid-hello-project:latest
