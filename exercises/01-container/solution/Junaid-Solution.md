@@ -41,4 +41,7 @@ Used these commands ,
 docker logs 0bdb59ac713e
 Magic happens on port 3000
 
+13. Created .tar file and moved the image into it
+
+    docker save -o junaid-hello-project.tar junaid1998/junaid-hello-project:latest
  
