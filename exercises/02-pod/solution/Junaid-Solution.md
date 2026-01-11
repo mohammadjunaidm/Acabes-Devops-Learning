@@ -35,16 +35,12 @@ Verified the pods in K9s
 
 entered "S" key after selecting the pod to enter shell of that pod.
 
+Checked the logs both using k9s (shortcut key 'l')and shell command "kubectl logs mypod -n junaid-pod-creation"
+
+Able to view the ip of the pod (10.244.0.6)
+
 Deleted the pod using K9s (ctrl + D)
 Using command (kubectl delete pod mypod)
 
 Deleted the namespace using K9s (ctrl + D)
 Using command (kubectl delete namespace junaid-pod-creation)
-
-
-
-Checked the logs both using k9s (shortcut key 'l')and shell command "kubectl logs mypod -n junaid-pod-creation"
-
-
-
-Able to view the ip of the pod (10.244.0.6)
